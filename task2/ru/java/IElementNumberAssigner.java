@@ -32,7 +32,7 @@ public interface IElementNumberAssigner {
      *
      * @param elements элементы, которым нужно выставить номера
      */
-    void assignNumbers1(List<IElement> elements);
     void assignNumbers2(List<IElement> elements);
+    /*void assignNumbers1(List<IElement> elements);*/
 
 }

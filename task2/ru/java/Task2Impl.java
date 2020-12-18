@@ -21,7 +21,7 @@ public class Task2Impl implements IElementNumberAssigner {
     public static final IElementNumberAssigner INSTANCE = new Task2Impl();
 
     @Override
-    public void assignNumbers1(final List<IElement> elements) {
+    public void assignNumbers2(final List<IElement> elements) {
         IElement[] iElements = elements.toArray(new IElement[]{});
         int max = Integer.MIN_VALUE;
         for (IElement element : iElements) {
@@ -51,9 +51,12 @@ public class Task2Impl implements IElementNumberAssigner {
             }
         }
     }
+}
 
+
+    /*
     @Override
-    public void assignNumbers2(final List<IElement> elements) {
+    public void assignNumbers1(final List<IElement> elements) {
 
         int i = 0;
 
@@ -76,7 +79,7 @@ public class Task2Impl implements IElementNumberAssigner {
     }
 
 }
-}
+*/
 
 
 

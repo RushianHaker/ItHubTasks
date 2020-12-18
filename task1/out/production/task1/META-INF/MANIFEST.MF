@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Main-Class: src.java.Main
+Build-Jdk: 11.0.9
+Class-Path: Build-Jdk: 11.0.9
+
