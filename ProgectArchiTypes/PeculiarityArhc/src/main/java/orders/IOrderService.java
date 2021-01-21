@@ -1,0 +1,4 @@
+package orders;
+
+ interface IOrderService {
+}

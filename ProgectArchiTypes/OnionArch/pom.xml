@@ -1,0 +1,10 @@
+<project>
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>example.com</groupId>
+    <artifactId>OnionArch</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>newTest Maven Webapp</name>
+</project>
