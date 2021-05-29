@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane
+        fx:controller="org.example.controller.LoginController"
+        maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<!--    <tabs>-->
+<!--        <Tab text="Вход">-->
+<!--            <content>-->
+<!--                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">-->
+                    <children>
+                        <Button fx:id="loginBtn" onAction="#onLoginBtnClick" layoutX="215.0" layoutY="200.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="175.0" text="Войти" />
+                        <TextField fx:id="loginInput" layoutX="215.0" layoutY="120.0" prefHeight="26.0" prefWidth="175.0" promptText="Логин" />
+                        <TextField fx:id="passwordInput" layoutX="216.0" layoutY="158.0" prefHeight="26.0" prefWidth="175.0" promptText="Пароль" />
+                        <Label fx:id="loginErrorLabel" layoutX="217.0" layoutY="252.0" prefHeight="87.0" prefWidth="176.0" />
+                    </children>
+<!--                </AnchorPane>-->
+<!--            </content>-->
+<!--        </Tab>-->
+<!--        <Tab text="Untitled Tab 2">-->
+<!--            <content>-->
+<!--                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />-->
+<!--            </content>-->
+<!--        </Tab>-->
+<!--    </tabs>-->
+</AnchorPane>
